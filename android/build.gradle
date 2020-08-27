@@ -9,7 +9,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.6.1'
+        classpath 'com.android.tools.build:gradle:3.3.1'
     }
 }
 
@@ -35,7 +35,6 @@ android {
     }
 
     dependencies {
-        api group: 'com.zopim.android', name: 'sdk', version: '1.4.4'
-        implementation 'androidx.annotation:annotation:1.1.0'
+        api group: 'com.zopim.android', name: 'sdk', version: '1.4.2'
     }
 }
